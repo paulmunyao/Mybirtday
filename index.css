@@ -5,13 +5,15 @@
 
 .mi{
     font-family: 'Corinthia', cursive;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     /* padding-top: 30px; */
 }
 
-.mi p{
+.par{
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     /* margin-bottom: -30px; */
 }
 
