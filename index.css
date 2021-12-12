@@ -30,7 +30,7 @@
     height: 100px;
 }
 
-@media screen and  (max-width: 375px){
+@media screen and  (max-width: 580px){
     .mi{
         text-align: center;
         font-size: 60px;
