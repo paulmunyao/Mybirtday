@@ -30,6 +30,11 @@
     height: 100px;
 }
 
+.val{
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: bold;
+}
+
 @media screen and  (max-width: 580px){
     .mi{
         text-align: center;
@@ -51,9 +56,6 @@
     }
 }
 
-.val{
-    font-family: "Montserrat" ,sans-serif;
-    font-weight: bold;
-}
+
 
 
