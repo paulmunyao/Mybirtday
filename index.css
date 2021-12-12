@@ -6,6 +6,13 @@
 .mi{
     font-family: 'Corinthia', cursive;
     font-size: 40px;
+    font-weight: bold;
+    /* padding-top: 30px; */
+}
+
+.mi p{
+    font-family: "Montserrat", sans-serif;
+    /* margin-bottom: -30px; */
 }
 
 
