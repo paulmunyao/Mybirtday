@@ -57,10 +57,11 @@
 .display{
     margin-left: 155px;
     font-family: "Montserrat" ,sans-serif;
+    font-size: 15px;
 }
 
 .result{
-    margin-left: 155px;
+    margin-left: 100px;
     font-family: "Montserrat" ,sans-serif;
 }
 
