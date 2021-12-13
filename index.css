@@ -51,8 +51,11 @@
 }
 
 .con{
-    position: relative;
-    left: 155px;
+    margin-left: 155px;
+}
+
+.display{
+    margin-left: ;
 }
 
 @media screen and  (max-width: 375px){
