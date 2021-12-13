@@ -45,6 +45,11 @@
     margin-right: -800px;
 }
 
+.btn{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
 @media screen and  (max-width: 580px){
     .mi{
         text-align: center;
