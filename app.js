@@ -1,3 +1,6 @@
 function getName() {
-    let 
+  let dayOfBirth = document.getElementById("year-input").value;
+  let monthOfBirth = Number(document.getElementById("month-input").value);
+  let yearOfBirth = Number(document.getElementById("day-input").value);
+  let genders = document.getElementsByName("gender");
 }
