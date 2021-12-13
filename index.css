@@ -69,6 +69,10 @@
         height: 700px;
         display: block;
     }
+
+    .col{
+        margin-right: 90px;
+    }
 }
 
 
