@@ -35,6 +35,12 @@
     font-weight: bold;
 }
 
+.gen h3{
+    font-family: "Montserrat" ,sans-serif;
+    font-size: 20px;
+
+}
+
 @media screen and  (max-width: 580px){
     .mi{
         text-align: center;
