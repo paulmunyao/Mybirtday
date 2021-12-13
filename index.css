@@ -77,13 +77,13 @@
 
 @media screen and  (max-width: 780px){
     .col{
-        margin-left: 200px;
+        margin-right: 80px;
         margin-top: 30px;
     }
 
-    /* .row{
+    .row{
         margin-right: 350px;
-    } */
+    }
 }
 
 
