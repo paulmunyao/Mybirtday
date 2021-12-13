@@ -4,3 +4,11 @@ function getName() {
   let yearOfBirth = Number(document.getElementById("year-input").value);
   let genders = document.getElementsByName("gender");
 }
+
+function getGender () {
+    for (let gender of genders){
+      if (gender.checked){
+        return gender.value;
+      }
+    }
+  }
