@@ -50,6 +50,11 @@
     margin-top: 30px;
 }
 
+.con{
+    position: relative;
+    left: 170px;
+}
+
 @media screen and  (max-width: 375px){
     .mi{
         text-align: center;
