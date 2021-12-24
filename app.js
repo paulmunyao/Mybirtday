@@ -18,17 +18,25 @@ function getGender () {
   function getDate(day,month,year){
     if (year % 4 == 0 && month == 2){
       if(day >29){
-        return "false"
+        return false;
       }else{
-        return "true"
+        return true;
       }
     }
     if (year % 4 !=0 && month != 2){
       if(day > 28){
-        return "false"
+        return false;
       }else{
-        return "true"
+        return true;
       }
+    }
+    
+    let present = new Date();
+    let d = new Date(year +"/"+month +"/"+day);
+    if(d > present){
+      return false;
+    }else{
+      return true;
     }
 
 
