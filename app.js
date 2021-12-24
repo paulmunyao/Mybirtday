@@ -15,6 +15,43 @@ function getGender () {
   }
 
   //Date Validation
-  function getDate(){
-    
+  function getDate(day,month,year){
+    if (year % 4 == 0 && month == 2){
+      if(day >29){
+        return "false"
+      }else{
+        return "true"
+      }
+    }
+    if (year % 4 !=0 && month != 2){
+      if(day > 28){
+        return "false"
+      }else{
+        return "true"
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
