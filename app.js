@@ -1,3 +1,21 @@
+let akanMale = [
+  { day: "sunday", name: "Kwasi" },
+  { day: "monday", name: "Kwadwo" },
+  { day: "tuesday", name: "Kwabena" },
+  { day: "wednesday", name: "Kwaku" },
+  { day: "thursday", name: "Yaw" },
+  { day: "friday", name: "Kofi" },
+  { day: "saturday", name: "Kwame" },
+];
+let akanFemales = [
+  { day: "sunday", name: "Akosua" },
+  { day: "monday", name: "Adwoa" },
+  { day: "tuesday", name: "Abenna" },
+  { day: "wednesday", name: "Akua" },
+  { day: "thursday", name: "Yaa" },
+  { day: "friday", name: "Afua" },
+  { day: "saturday", name: "Ama" },
+];
 let button = document.querySelector("#submit");
 button.addEventListener("click", function () {
   let error = 0;
@@ -25,7 +43,7 @@ button.addEventListener("click", function () {
   } else {
     if (getDate(day, month, year)) {
       let d = new Date(year + "/" + month + "/" + day);
-      
+
       //Gender Validation
       if (male.checked) {
         return "male";
