@@ -6,7 +6,7 @@ The project is a web application called MyBirthday.The aim is help user be able 
 1)Install VScode<br>2)write your codes install a live server<br>3)push your code to the remote server
 
 ## Technology used 
-1)HTML<br>2)CSS<br>3)Javascript
+1)HTML<br>2)CSS<br>3)Bootrstrap<br>)Javascript
 ## Support and contact
 Email:paulmunyao094@gmail.com
 
