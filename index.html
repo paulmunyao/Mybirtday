@@ -30,23 +30,23 @@
         <div class=" val text-center mt-3">
             <h1 class="lead">To know more without much hustle and bustle kindly fill in the forms below</h1>
         </div>
-        <form class="myform container mt-4" on submit="return getName">
+        <form class="myform container mt-4">
             <div class="form-group">
                 <label for="Date">Date of Birth:
-                    <input type="number" id="day-input" name="dayOfBirth" class="form-control"
-                        placeholder="Date of Birth" value="" required>
+                    <input type="text" id="day-input" name="dayOfBirth" class="form-control"
+                        placeholder="DD" value="" required minlength="1" maxlength="2">
                 </label>
             </div>
             <div class="form-group mt-4">
                 <label for="month">Month of Birth:
-                    <input type="number" id="month-input" name="Month of Birth" class="form-control"
-                        placeholder="Month of Birth" value="" required>
+                    <input type="text" id="month-input" name="Month of Birth" class="form-control"
+                        placeholder="MM" value="" required minlength="1" maxlength="2">
                 </label>
             </div>
             <div class="form-group mt-4">
                 <label for="Year">Year of Birth:
-                    <input type="number" id="year-input" name="Year of Birth" class="form-control"
-                        placeholder="Year of Birth" value="" required>
+                    <input type="text" id="year-input" name="Year of Birth" class="form-control"
+                        placeholder="YYYY" value="" required minlength="4" maxlength="4">
                 </label>
             </div>
             <div class="gen mt-3">
@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gender" id="Male">
+                        <input class="form-check-input" type="radio" name="gender" id="male">
                         <label class="form-check-label" for="gender">
                             Male
                         </label>
@@ -64,7 +64,7 @@
 
                 <div class="col">
                     <div class="form-check">
-                        <input class="com form-check-input" type="radio" name="gender" id="Female" checked>
+                        <input class="com form-check-input" type="radio" name="gender" id="female" checked>
                         <label class="form-check-label" for="gender">
                             Female
                         </label>
@@ -72,8 +72,11 @@
                 </div>
             </div>
             <br><br>
-            <button type="submit" class="btn mx-5 mt-4 btn-primary">Generate name</button>
+            <div id="error">
+            </div>
+            <input type="Button" name="submit" value="submit" id="submit">
         </form>
+        
     </div>
     <!-- <div class="btn con mt-4">
         <button class="btn-primary" onclick="document.getElementById('myInput').value=''">Clear input field</button>
